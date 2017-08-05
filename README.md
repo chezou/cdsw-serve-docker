@@ -1,5 +1,10 @@
 # cdsw-serve-docker
 
+This repo is example of Docker image for PySpark serving API based on CDSW engine.
+
+Original application code is here:
+https://github.com/chezou/cdsw-simple-serving-python
+
 ## Usage
 
 Run:
