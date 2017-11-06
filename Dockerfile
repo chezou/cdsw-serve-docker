@@ -1,4 +1,4 @@
-FROM cloudera-cdsw-docker-repo.jfrog.io/cdsw/engine:1
+FROM docker.repository.cloudera.com/cdsw/engine:3
 RUN git clone https://github.com/chezou/cdsw-simple-serving-python && \
     cd cdsw-simple-serving-python && \
     pip install --upgrade pip && \
